@@ -1,4 +1,4 @@
-package com.example.Microservices;
+package com.example.Eureka;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,10 +6,10 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
 @SpringBootApplication
 @EnableEurekaServer
-public class MicroservicesApplication {
+public class EurekaApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(MicroservicesApplication.class, args);
+		SpringApplication.run(EurekaApplication.class, args);
 	}
 
 }
